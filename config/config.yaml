@@ -61,12 +61,22 @@ platforms:
       name: "百度热搜"
     - id: "wallstreetcn-hot"
       name: "华尔街见闻"
+    - id: "thepaper"
+      name: "澎湃新闻"
     - id: "bilibili-hot-search"
       name: "bilibili 热搜"
+    - id: "cls-hot"
+      name: "财联社热门"
+    - id: "ifeng"
+      name: "凤凰网"
+    - id: "tieba"
+      name: "贴吧"
+    - id: "weibo"
+      name: "微博"
     - id: "douyin"
       name: "抖音"
-   - id: "sspai"
-    name: "少数派"
+    - id: "zhihu"
+      name: "知乎"
 
 
 
@@ -141,7 +151,7 @@ rss:
 # - incremental：最少打扰，只看新增
 # ===============================================================
 report:
-  mode: "incremental"                     # daily | current | incremental（schedule 开启时作为默认值）
+  mode: "current"                     # daily | current | incremental（schedule 开启时作为默认值）
 
   display_mode: "keyword"             # 分组维度: keyword | platform
                                       # keyword: 按关键词分组显示（默认）
